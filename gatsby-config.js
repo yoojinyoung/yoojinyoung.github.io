@@ -4,18 +4,19 @@ module.exports = {
     title: "yoojinyoung",
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-plugin-typescript`,
-      options: {
-        isTSX: true,
-        allExtensions: true
-      },
-    },
+    "gatsby-plugin-sass",
+    "gatsby-plugin-typescript",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/organisms/Page/index.ts"),
+        },
+      },
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {

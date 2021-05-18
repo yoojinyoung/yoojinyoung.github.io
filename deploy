@@ -1,16 +1,10 @@
 #!/bin/bash
 
-# Switch to release branch
-git switch release
-
-# Merge main branch
-git merge main
-
 # Build project
 npm run build
 
-# Deploy
-npm run deploy
+# Clean up previous build
+./node_modules/gh-pages/bin/gh-pages-clean.js
 
-# Switch to main branch
-git switch main
+# Deploy
+./node_modules/gh-pages/bin/gh-pages.js -d public --branch release

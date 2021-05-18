@@ -1,12 +1,11 @@
-import React from "react";
+import React, { PropsWithChildren } from "react";
 import Paragraph from "../../atoms/Paragraph/Paragraph";
 import Page from "../../organisms/Page";
 
-export default function HomePage() {
+export default function HomePage({ children }: PropsWithChildren<{}>) {
   return (
     <Page>
-      <h1>첫 화면</h1>
-      <Paragraph>안녕하세요, Young 입니다.</Paragraph>
+      <div>{children}</div>
     </Page>
   );
 }
