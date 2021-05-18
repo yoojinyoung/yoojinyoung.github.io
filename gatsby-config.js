@@ -4,7 +4,14 @@ module.exports = {
     title: "yoojinyoung",
   },
   plugins: [
-    "gatsby-plugin-sass",
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true,
+        allExtensions: true
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",

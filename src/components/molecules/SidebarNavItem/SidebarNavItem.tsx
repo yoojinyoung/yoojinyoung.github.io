@@ -1,9 +1,21 @@
 import React from "react";
+import * as styles from "./SidebarNavItem.module.scss";
 
-export default function SidebarNavItem() {
+interface Props {
+  title: string;
+  href: string;
+  active?: boolean;
+}
+
+function SidebarNavItem(props: Props) {
+  const { title, href, active } = props;
   return (
-    <li>
-      <a href="">hello</a>
+    <li className={styles.sidebarNavItem}>
+      <a className={active ? styles.active : undefined} href={href}>
+        {title}
+      </a>
     </li>
   );
 }
+
+export default React.memo(SidebarNavItem);

@@ -1,5 +1,6 @@
 .layout {
+  position: relative;
   display: grid;
-  grid-template-columns: "auto 1fr";
+  grid-template-columns: minmax(auto, 256px) 1fr;
   grid-template-areas: "navbar main";
 }
