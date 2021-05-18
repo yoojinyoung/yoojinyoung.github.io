@@ -1,5 +1,1 @@
-import React from "react";
-
-export default function index() {
-  return <div>Hello world</div>;
-}
+export { default } from "../components/pages/HomePage";
