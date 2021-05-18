@@ -1,0 +1,2 @@
+(self.webpackChunkyoojinyoung=self.webpackChunkyoojinyoung||[]).push([[691],{803:function(n,e,u){"use strict";u.r(e),u.d(e,{default:function(){return r}});var t=u(7294),l=u(3234),o=u(5828);function r(){return t.createElement(o.Z,null,t.createElement("h1",null,"첫 화면"),t.createElement(l.Z,null,"안녕하세요, Young 입니다."))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-8bc758063983c1820f17.js.map

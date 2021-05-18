@@ -1,0 +1,2 @@
+(self.webpackChunkyoojinyoung=self.webpackChunkyoojinyoung||[]).push([[691],{7806:function(e,n,l){"use strict";l.r(n),l.d(n,{default:function(){return r}});var t=l(7294);function u(e){var n=e.children;return t.createElement("p",null,n)}function r(){return t.createElement("div",null,t.createElement("h1",null,"HomePage"),t.createElement(u,null,"hello world"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-807bf22ef8d0a5954e5b.js.map
