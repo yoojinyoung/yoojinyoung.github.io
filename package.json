@@ -17,8 +17,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "predeploy": "gatsby build",
-    "deploy": "gh-pages -d public --branch main"
+    "deploy": "gh-pages -d public --branch release"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
