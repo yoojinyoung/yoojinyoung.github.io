@@ -3,7 +3,6 @@ import SidebarNavItem from "../SidebarNavItem";
 import * as styles from "./SidebarNav.module.scss";
 
 export default function SidebarNav() {
-  console.log(window?.location.pathname);
   const currentPath = window?.location?.pathname;
   const isActive = (href) => href === currentPath;
 
