@@ -1,0 +1,2 @@
+(self.webpackChunkyoojinyoung=self.webpackChunkyoojinyoung||[]).push([[754],{3234:function(n,e,t){"use strict";t.d(e,{Z:function(){return r}});var u=t(7294);function r(n){var e=n.children;return u.createElement("p",n,e)}},9158:function(n,e,t){"use strict";t.r(e),t.d(e,{default:function(){return l}});var u=t(7294),r=t(3234),c=t(5828);function l(){return u.createElement(c.Z,null,u.createElement("h1",null,"글 모음"),u.createElement(r.Z,null,"글 모음..."))}}}]);
+//# sourceMappingURL=component---src-pages-posts-tsx-b365ba6c7a6559f1c709.js.map

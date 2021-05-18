@@ -1,0 +1,2 @@
+(self.webpackChunkyoojinyoung=self.webpackChunkyoojinyoung||[]).push([[49],{3234:function(n,e,t){"use strict";t.d(e,{Z:function(){return r}});var u=t(7294);function r(n){var e=n.children;return u.createElement("p",n,e)}},6633:function(n,e,t){"use strict";t.r(e),t.d(e,{default:function(){return l}});var u=t(7294),r=t(3234),c=t(5828);function l(){return u.createElement(c.Z,null,u.createElement("h1",null,"소개"),u.createElement(r.Z,null,"소개란..."))}}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-db55a06e9ad4a77a90a5.js.map
